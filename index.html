@@ -7,6 +7,11 @@
   <title>AUTOMOTIVE FILMMAKER - KE5HH</title>
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <link href="bootstrap.min.css" rel="stylesheet">
+  <!-- Option 1: Include in HTML -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap" rel="stylesheet">
   <link href="style.css" rel="stylesheet">
 </head>
 <body>
@@ -14,22 +19,47 @@
 
     <div class="row g-0 py-4">
       <div class="col-12 mb-4 mt-2 text-center">
-        <h1 class="">KE5HH MEDIA</h1>
-        <p class="">WAKE UP AND LIVE</p>
-        <a href="">HOME</a>
-        <a href="">ABOUT</a>
-        <a href="">CONTACT</a>
+        <h1 class="mb-3 fugaz-one-regular">KE5HH MEDIA</h1>
+        <a class="mx-1 underlined" href="">HOME</a>
+        <a class="mx-1" href="">PACKAGES</a>
+        <a class="mx-1" href="">CONTACT</a>
       </div>
     </div>
 
-    <div class="movie">
-      <video autoplay muted>
-        <source src="site.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
+    <div class="container">
+    
+      <div class="row g-0">
+        <div class="col-6">
+          <video autoplay muted loop>
+            <source src="features.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="col-6 text-center">
+            <p class="fugaz-one-regular">Features</p>
+        </div>
+      </div>
+      <div class="row g-0 underlap">
+        <div class="col-6 align-items-center">
+            <p class="fugaz-one-regular">Action</p>
+        </div>
+        <div class="col-6">
+          <video autoplay muted loop>
+            <source src="static.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+    
+    </div>
+
+    <div class="my-4">
+      <div class="container px-3">
+        <p class="fugaz-one-regular">KE5HH MEDIA</p>
+        <p><i class="bi bi-instagram"></i></p>
+
+      </div>
     </div>
 
   </main>
   <script src="bootstrap.bundle.min.js"></script>
-</body>
-</html>
+  </body>
+  </html>
