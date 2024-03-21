@@ -1,9 +1,10 @@
-body {
+:root {
+  color-scheme: dark;
 }
 
-.underlined {
-  text-decoration: underline;
-  text-underline-offset: 7px;
+body {
+  background: black;
+  color: white;
 }
 
 video {
@@ -17,7 +18,7 @@ video {
 }
 
 a {
-  color: black;
+  color: white;
   text-decoration: none;
 }
 
