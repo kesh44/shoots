@@ -7,22 +7,49 @@ body {
   color: white;
 }
 
+.accent {
+  color: #5D0001;
+}
+
+.accent-bg {
+  background: #5D0001;
+}
+
 h1 {
   font-size: 26px;
 }
 
 h2 {
-  font-size: 18px;
+  font-size: 22px;
 }
 
 .lighter {
-  opacity: 0.3;
+  opacity: 0.6;
 }
 
 .bg-vid {
   width: 100%;
-  height: 400px;
-  background: dimgrey;
+  height: 80vh;
+
+  position: relative;
+}
+
+.bg-vid video {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+  z-index: 0;
+}
+
+.bg-vid .banner {
+  z-index: 1;
+  position: relative;
+}
+
+.bg-vid .hero {
+  z-index: 1;
+  position: relative;
 }
 
 video {
@@ -38,4 +65,16 @@ video {
 a, a:hover {
   color: white;
   text-decoration: none;
+}
+
+.feature-container {
+}
+
+.feature {
+  background: #5D0001;
+}
+
+.bg-yt {
+  background: white;
+  color: black;
 }
