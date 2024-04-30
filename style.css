@@ -27,6 +27,10 @@ h2 {
   opacity: 0.6;
 }
 
+.hero img {
+  width: 100%;
+}
+
 .bg-vid {
   width: 100%;
   height: 80vh;
